@@ -1,7 +1,7 @@
 
 # Nabokos 
 
-Nabokos is a sokoban style game written in coffee-script and uses HTML5's canvas for rendering. The game started out as a weekend project to learn coffee-script but I plan to add more to it over time, mainly new levels. If you find any bugs or want to implement a feature, send me a pull request and I'll be happy to merge it.
+Nabokos is a sokoban style game written in coffee-script and uses HTML5's canvas for rendering. The game started out as a weekend project to learn coffee-script but I plan to add more to it over time, mainly new levels. If you find any bugs or want to implement a feature then send me a pull request and I'll be happy to merge it.
 
 ![Nabokos](http://img600.imageshack.us/img600/4637/selection001dk.png)
 
