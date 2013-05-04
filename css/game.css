@@ -1,0 +1,138 @@
+body {
+  background-image: url(../img/kindajean.png); 
+  font-family:sans-serif;
+  color:#333;
+}
+
+a { color:#333; }
+
+#sokoban { display: block; }
+
+#game {
+  position:relative;
+  width:480px;
+  margin:0 auto;
+  font-size:12px;
+  color:#333;
+  margin-bottom:25px;
+}
+
+#menu {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 460px;
+  height: 315px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 0px 15px 0px 15;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  display: none;
+  border: 3px solid #ccc; 
+}
+
+#container {
+  position: relative;
+  width:600px;
+  margin: 0 auto;
+}
+
+#game-status {
+  text-align:center;
+  text-transform:uppercase;
+
+  margin-top:10px;
+  text-shadow:2px 2px 4px #ADADAD;
+  color:#4e4e4e;
+  font-size:48px;
+}
+
+#level-buttons {
+ text-align:center;
+}
+
+header { text-align:center; }
+
+header h1 {
+
+  color:#4e4e4e;
+  text-transform:uppercase;
+  font-weight:bold;
+  text-shadow:2px 2px 4px #ADADAD;
+  font-size:72px;
+  margin-top:15px;
+  margin-bottom:0px;
+}
+
+header h4 {
+  margin-top:0px;
+  margin-bottom:25px;
+  color:rgba(0,0,0,0.5);
+}
+
+footer {
+  text-align:center;
+  font-size:14px;
+  color:rgba(0,0,0,0.5);
+}
+
+.counters {
+  width: 100%;
+  color: #333;
+  font-weight: bold;
+  box-sizing: border-box;
+  position: relative;
+  top: -38px;
+  font-size:14px;
+}
+
+.counters span {
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ccc; 
+  text-align:center;
+}
+
+#step-counter { float: right; }
+#level-counter { float: left; }
+#level-counter img { width:14px; }
+
+
+.btn {
+  padding: 10px;
+  text-decoration: none;
+  background: #ccc;
+  border: 3px solid #999;
+  color: #222;
+  font-weight: bold; 
+}
+
+.btn:hover {
+  color: #eee;
+  background: #ccc; 
+}
+
+#highscores {
+  text-align:center;
+  margin:0 auto;
+  width:400px;
+}
+
+#highscores table {
+  padding:10px;
+  margin:0 auto;
+  width:200px;
+}
+
+#highscores table td { text-align:center; padding:5px }
+#highscores table thead { font-weight:bold; }
+#highscores table tbody tr:nth-child(odd) {background-color:#ccc;}
+
+hr {
+  width:100%;
+  border:0px;
+  height: 2px;;
+  background: #cecece;
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(#cecece), to(#cecece), color-stop(50%, #c0c0c0));
+}
+

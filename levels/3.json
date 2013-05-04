@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "tileSize":48,
+    "width":10
+  },
+  "tiles": [
+    {
+      "id":1,
+      "name":"stone2",
+      "path":"img/stone2.jpg",
+      "type":"world"
+    },
+    {
+      "id":3,
+      "name":"platform",
+      "path":"img/platform.png",
+      "type":"platform"
+    },
+    {
+      "id":2,
+      "name":"crate",
+      "path":"img/crate.png",
+      "type":"box"
+    }
+  ],
+  "data": [
+    1,1,1,1,1,1,1,1,1,1,
+    1,9,0,0,0,0,0,0,0,1,
+    1,0,0,1,0,2,0,0,0,1,
+    1,1,1,1,1,1,1,2,0,1,
+    1,3,1,3,0,0,0,0,0,1,
+    1,0,2,0,1,1,1,1,3,1,
+    1,0,0,0,0,2,0,0,3,1,
+    1,1,1,1,1,1,1,1,1,1
+  ]
+}

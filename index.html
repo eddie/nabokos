@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <title>Nabokos</title>
+
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="css/game.css" />
+  </head>
+  <body>
+
+    <a href="https://github.com/you"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
+    <div id='container'>
+
+      <header> 
+        <h1 id='game-title'>Nabokos 番</h1>
+        <h4>Move all the blocks onto platforms to complete the level</h4>
+      </header>
+
+      <div id='game'>
+        <canvas width='480' height='335' id='sokoban'></canvas>
+
+        <div id='menu'>
+
+          <h1 id='game-status'>Well done!</h1>
+
+          <div id='level-buttons'>
+            <a href='#' id='next-level' class='btn'>Next Level</a>
+            <a href='#' id='restart-level' class='btn'>Retry Level</a>
+            <a href='#' id='restart-game' class='btn'>Restart</a>
+          </div>
+
+          <hr />
+           
+          <div id='highscores'>
+            <h2>Highscores</h2>
+            <table cellspacing=0>
+              <thead> 
+                <tr>
+                  <td>Level</td>
+                  <td>Score</td>
+                </tr>
+              </thead>
+              <tbody> 
+                <tr>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+        </div>
+
+        <div class='counters'>
+          <span id='step-counter'>0 Steps</span>
+          <span id='level-counter'>Level 1 <img src='img/glyphicons_365_restart.png'></span>
+        </div>
+      </div><!-- /end game-->
+
+      <footer>
+        <hr />
+        <p>Created by <a href='http://www.eblundell.com'>Eddie Blundell</a>. Source available on <a href='#'>github</a>.</p>
+      </footer>
+    </div><!-- /end container -->
+
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="js/Sprite.js"></script>
+    <script type="text/javascript" src="js/Tile.js"></script>
+    <script type="text/javascript" src="js/Highscore.js"></script>
+    <script type="text/javascript" src="js/Level.js"></script>
+    <script type="text/javascript" src="js/Player.js"></script>
+    <script type="text/javascript" src="js/UI.js"></script>
+    <script type="text/javascript" src="js/Sokoban.js"></script>
+
+  </body>
+</html>
