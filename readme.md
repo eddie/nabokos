@@ -14,5 +14,5 @@ Nabokos is a sokoban style game written in coffee-script and uses HTML5's canvas
 
 # License
 
-Put together by Eddie ([eblundell.com](eblundell.com)), code is licensed under the MIT [http://opensource.org/licenses/MIT]
+Put together by Eddie ([eblundell.com](http://www.eblundell.com)), code is licensed under the MIT [http://opensource.org/licenses/MIT]
 
