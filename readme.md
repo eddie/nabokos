@@ -1,7 +1,7 @@
 
 # Nabokos 
 
-Nabokos is a sokoban style game written in coffee-script and uses HTML5's canvas for rendering. The game started out as a weekeend project to learn coffee-script but I plan to add more to it over time, mainly new levels. If you find any bugs or want to implement a feature, send me a pull request and I'll be happy to merge it.
+Nabokos is a sokoban style game written in coffee-script and uses HTML5's canvas for rendering. The game started out as a weekend project to learn coffee-script but I plan to add more to it over time, mainly new levels. If you find any bugs or want to implement a feature, send me a pull request and I'll be happy to merge it.
 
 ![Nabokos](http://img600.imageshack.us/img600/4637/selection001dk.png)
 
@@ -10,8 +10,9 @@ Nabokos is a sokoban style game written in coffee-script and uses HTML5's canvas
 - [darkwood67](http://darkwood67.deviantart.com/gallery/11280947) for brick textures
 - [devnewton](http://opengameart.org/users/devnewton) for crate texture
 - [sheep](http://sheep.art.pl) for character sprite
+- [Zoko](https://github.com/lulea/game-off-2012) for the platform texture and inspiriation for the project
 
 # License
 
-Put together by Eddie (eblundell.com), do what you wish with this project!
+Put together by Eddie ([eblundell.com](eblundell.com)), code is licensed under the MIT [http://opensource.org/licenses/MIT]
 
