@@ -5,6 +5,12 @@ Nabokos is a sokoban style game written in coffee-script and uses HTML5's canvas
 
 ![Nabokos](http://img600.imageshack.us/img600/4637/selection001dk.png)
 
+# Todo
+
+- Option to restart level whilst level incomplete.
+- Fix canvas height on large levels
+- Whilst in menu screen, space or arrow keys select next level
+
 # Credits
 
 - [darkwood67](http://darkwood67.deviantart.com/gallery/11280947) for brick textures
